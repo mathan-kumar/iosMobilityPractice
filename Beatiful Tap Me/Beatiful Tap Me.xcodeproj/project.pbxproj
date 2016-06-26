@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3C1347E1D1EA85B009BF174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C1347D1D1EA85B009BF174 /* main.m */; };
+		B3C134811D1EA85B009BF174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C134801D1EA85B009BF174 /* AppDelegate.m */; };
+		B3C134841D1EA85B009BF174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C134831D1EA85B009BF174 /* ViewController.m */; };
+		B3C134871D1EA85B009BF174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C134851D1EA85B009BF174 /* Main.storyboard */; };
+		B3C134891D1EA85B009BF174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C134881D1EA85B009BF174 /* Assets.xcassets */; };
+		B3C1348C1D1EA85B009BF174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C1348A1D1EA85B009BF174 /* LaunchScreen.storyboard */; };
+		B3C134971D1EA85B009BF174 /* Beatiful_Tap_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C134961D1EA85B009BF174 /* Beatiful_Tap_MeTests.m */; };
+		B3C134A21D1EA85B009BF174 /* Beatiful_Tap_MeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C134A11D1EA85B009BF174 /* Beatiful_Tap_MeUITests.m */; };
+		B3C134C01D1EA87A009BF174 /* bg_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134AF1D1EA87A009BF174 /* bg_tile.png */; };
+		B3C134C11D1EA87A009BF174 /* bg_tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B01D1EA87A009BF174 /* bg_tile@2x.png */; };
+		B3C134C21D1EA87A009BF174 /* button_tap_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B11D1EA87A009BF174 /* button_tap_deselected.png */; };
+		B3C134C31D1EA87A009BF174 /* button_tap_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B21D1EA87A009BF174 /* button_tap_deselected@2x.png */; };
+		B3C134C41D1EA87A009BF174 /* button_tap_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B31D1EA87A009BF174 /* button_tap_selected.png */; };
+		B3C134C51D1EA87A009BF174 /* button_tap_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B41D1EA87A009BF174 /* button_tap_selected@2x.png */; };
+		B3C134C61D1EA87A009BF174 /* ButtonTap.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B51D1EA87A009BF174 /* ButtonTap.wav */; };
+		B3C134C71D1EA87A009BF174 /* checker_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B61D1EA87A009BF174 /* checker_bottom.png */; };
+		B3C134C81D1EA87A009BF174 /* checker_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B71D1EA87A009BF174 /* checker_bottom@2x.png */; };
+		B3C134C91D1EA87A009BF174 /* checker_top.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B81D1EA87A009BF174 /* checker_top.png */; };
+		B3C134CA1D1EA87A009BF174 /* checker_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134B91D1EA87A009BF174 /* checker_top@2x.png */; };
+		B3C134CB1D1EA87A009BF174 /* field_score.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134BA1D1EA87A009BF174 /* field_score.png */; };
+		B3C134CC1D1EA87A009BF174 /* field_score@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134BB1D1EA87A009BF174 /* field_score@2x.png */; };
+		B3C134CD1D1EA87A009BF174 /* field_time.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134BC1D1EA87A009BF174 /* field_time.png */; };
+		B3C134CE1D1EA87A009BF174 /* field_time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C134BD1D1EA87A009BF174 /* field_time@2x.png */; };
+		B3C134CF1D1EA87A009BF174 /* HallOfTheMountainKing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3C134BE1D1EA87A009BF174 /* HallOfTheMountainKing.mp3 */; };
+		B3C134D01D1EA87A009BF174 /* SecondBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3C134BF1D1EA87A009BF174 /* SecondBeep.wav */; };
+		B3C134D21D1EC11D009BF174 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C134D11D1EC11D009BF174 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3C134931D1EA85B009BF174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3C134711D1EA85B009BF174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C134781D1EA85B009BF174;
+			remoteInfo = "Beatiful Tap Me";
+		};
+		B3C1349E1D1EA85B009BF174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3C134711D1EA85B009BF174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C134781D1EA85B009BF174;
+			remoteInfo = "Beatiful Tap Me";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3C134791D1EA85B009BF174 /* Beatiful Tap Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beatiful Tap Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C1347D1D1EA85B009BF174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3C1347F1D1EA85B009BF174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3C134801D1EA85B009BF174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3C134821D1EA85B009BF174 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3C134831D1EA85B009BF174 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3C134861D1EA85B009BF174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3C134881D1EA85B009BF174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3C1348B1D1EA85B009BF174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3C1348D1D1EA85B009BF174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C134921D1EA85B009BF174 /* Beatiful Tap MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beatiful Tap MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C134961D1EA85B009BF174 /* Beatiful_Tap_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beatiful_Tap_MeTests.m; sourceTree = "<group>"; };
+		B3C134981D1EA85B009BF174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C1349D1D1EA85B009BF174 /* Beatiful Tap MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beatiful Tap MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C134A11D1EA85B009BF174 /* Beatiful_Tap_MeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beatiful_Tap_MeUITests.m; sourceTree = "<group>"; };
+		B3C134A31D1EA85B009BF174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C134AF1D1EA87A009BF174 /* bg_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_tile.png; sourceTree = "<group>"; };
+		B3C134B01D1EA87A009BF174 /* bg_tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_tile@2x.png"; sourceTree = "<group>"; };
+		B3C134B11D1EA87A009BF174 /* button_tap_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_tap_deselected.png; sourceTree = "<group>"; };
+		B3C134B21D1EA87A009BF174 /* button_tap_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_tap_deselected@2x.png"; sourceTree = "<group>"; };
+		B3C134B31D1EA87A009BF174 /* button_tap_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_tap_selected.png; sourceTree = "<group>"; };
+		B3C134B41D1EA87A009BF174 /* button_tap_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_tap_selected@2x.png"; sourceTree = "<group>"; };
+		B3C134B51D1EA87A009BF174 /* ButtonTap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ButtonTap.wav; sourceTree = "<group>"; };
+		B3C134B61D1EA87A009BF174 /* checker_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checker_bottom.png; sourceTree = "<group>"; };
+		B3C134B71D1EA87A009BF174 /* checker_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checker_bottom@2x.png"; sourceTree = "<group>"; };
+		B3C134B81D1EA87A009BF174 /* checker_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checker_top.png; sourceTree = "<group>"; };
+		B3C134B91D1EA87A009BF174 /* checker_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checker_top@2x.png"; sourceTree = "<group>"; };
+		B3C134BA1D1EA87A009BF174 /* field_score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field_score.png; sourceTree = "<group>"; };
+		B3C134BB1D1EA87A009BF174 /* field_score@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "field_score@2x.png"; sourceTree = "<group>"; };
+		B3C134BC1D1EA87A009BF174 /* field_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field_time.png; sourceTree = "<group>"; };
+		B3C134BD1D1EA87A009BF174 /* field_time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "field_time@2x.png"; sourceTree = "<group>"; };
+		B3C134BE1D1EA87A009BF174 /* HallOfTheMountainKing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HallOfTheMountainKing.mp3; sourceTree = "<group>"; };
+		B3C134BF1D1EA87A009BF174 /* SecondBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SecondBeep.wav; sourceTree = "<group>"; };
+		B3C134D11D1EC11D009BF174 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C134761D1EA85B009BF174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C134D21D1EC11D009BF174 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C1348F1D1EA85B009BF174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C1349A1D1EA85B009BF174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3C134701D1EA85B009BF174 = {
+			isa = PBXGroup;
+			children = (
+				B3C134D11D1EC11D009BF174 /* AVFoundation.framework */,
+				B3C1347B1D1EA85B009BF174 /* Beatiful Tap Me */,
+				B3C134951D1EA85B009BF174 /* Beatiful Tap MeTests */,
+				B3C134A01D1EA85B009BF174 /* Beatiful Tap MeUITests */,
+				B3C1347A1D1EA85B009BF174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C1347A1D1EA85B009BF174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C134791D1EA85B009BF174 /* Beatiful Tap Me.app */,
+				B3C134921D1EA85B009BF174 /* Beatiful Tap MeTests.xctest */,
+				B3C1349D1D1EA85B009BF174 /* Beatiful Tap MeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C1347B1D1EA85B009BF174 /* Beatiful Tap Me */ = {
+			isa = PBXGroup;
+			children = (
+				B3C1347F1D1EA85B009BF174 /* AppDelegate.h */,
+				B3C134801D1EA85B009BF174 /* AppDelegate.m */,
+				B3C134821D1EA85B009BF174 /* ViewController.h */,
+				B3C134831D1EA85B009BF174 /* ViewController.m */,
+				B3C134851D1EA85B009BF174 /* Main.storyboard */,
+				B3C134881D1EA85B009BF174 /* Assets.xcassets */,
+				B3C1348A1D1EA85B009BF174 /* LaunchScreen.storyboard */,
+				B3C1348D1D1EA85B009BF174 /* Info.plist */,
+				B3C1347C1D1EA85B009BF174 /* Supporting Files */,
+			);
+			path = "Beatiful Tap Me";
+			sourceTree = "<group>";
+		};
+		B3C1347C1D1EA85B009BF174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C134AF1D1EA87A009BF174 /* bg_tile.png */,
+				B3C134B01D1EA87A009BF174 /* bg_tile@2x.png */,
+				B3C134B11D1EA87A009BF174 /* button_tap_deselected.png */,
+				B3C134B21D1EA87A009BF174 /* button_tap_deselected@2x.png */,
+				B3C134B31D1EA87A009BF174 /* button_tap_selected.png */,
+				B3C134B41D1EA87A009BF174 /* button_tap_selected@2x.png */,
+				B3C134B51D1EA87A009BF174 /* ButtonTap.wav */,
+				B3C134B61D1EA87A009BF174 /* checker_bottom.png */,
+				B3C134B71D1EA87A009BF174 /* checker_bottom@2x.png */,
+				B3C134B81D1EA87A009BF174 /* checker_top.png */,
+				B3C134B91D1EA87A009BF174 /* checker_top@2x.png */,
+				B3C134BA1D1EA87A009BF174 /* field_score.png */,
+				B3C134BB1D1EA87A009BF174 /* field_score@2x.png */,
+				B3C134BC1D1EA87A009BF174 /* field_time.png */,
+				B3C134BD1D1EA87A009BF174 /* field_time@2x.png */,
+				B3C134BE1D1EA87A009BF174 /* HallOfTheMountainKing.mp3 */,
+				B3C134BF1D1EA87A009BF174 /* SecondBeep.wav */,
+				B3C1347D1D1EA85B009BF174 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3C134951D1EA85B009BF174 /* Beatiful Tap MeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3C134961D1EA85B009BF174 /* Beatiful_Tap_MeTests.m */,
+				B3C134981D1EA85B009BF174 /* Info.plist */,
+			);
+			path = "Beatiful Tap MeTests";
+			sourceTree = "<group>";
+		};
+		B3C134A01D1EA85B009BF174 /* Beatiful Tap MeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3C134A11D1EA85B009BF174 /* Beatiful_Tap_MeUITests.m */,
+				B3C134A31D1EA85B009BF174 /* Info.plist */,
+			);
+			path = "Beatiful Tap MeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C134781D1EA85B009BF174 /* Beatiful Tap Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C134A61D1EA85B009BF174 /* Build configuration list for PBXNativeTarget "Beatiful Tap Me" */;
+			buildPhases = (
+				B3C134751D1EA85B009BF174 /* Sources */,
+				B3C134761D1EA85B009BF174 /* Frameworks */,
+				B3C134771D1EA85B009BF174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beatiful Tap Me";
+			productName = "Beatiful Tap Me";
+			productReference = B3C134791D1EA85B009BF174 /* Beatiful Tap Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3C134911D1EA85B009BF174 /* Beatiful Tap MeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C134A91D1EA85B009BF174 /* Build configuration list for PBXNativeTarget "Beatiful Tap MeTests" */;
+			buildPhases = (
+				B3C1348E1D1EA85B009BF174 /* Sources */,
+				B3C1348F1D1EA85B009BF174 /* Frameworks */,
+				B3C134901D1EA85B009BF174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C134941D1EA85B009BF174 /* PBXTargetDependency */,
+			);
+			name = "Beatiful Tap MeTests";
+			productName = "Beatiful Tap MeTests";
+			productReference = B3C134921D1EA85B009BF174 /* Beatiful Tap MeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3C1349C1D1EA85B009BF174 /* Beatiful Tap MeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C134AC1D1EA85B009BF174 /* Build configuration list for PBXNativeTarget "Beatiful Tap MeUITests" */;
+			buildPhases = (
+				B3C134991D1EA85B009BF174 /* Sources */,
+				B3C1349A1D1EA85B009BF174 /* Frameworks */,
+				B3C1349B1D1EA85B009BF174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C1349F1D1EA85B009BF174 /* PBXTargetDependency */,
+			);
+			name = "Beatiful Tap MeUITests";
+			productName = "Beatiful Tap MeUITests";
+			productReference = B3C1349D1D1EA85B009BF174 /* Beatiful Tap MeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C134711D1EA85B009BF174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mathan Kumar";
+				TargetAttributes = {
+					B3C134781D1EA85B009BF174 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B3C134911D1EA85B009BF174 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B3C134781D1EA85B009BF174;
+					};
+					B3C1349C1D1EA85B009BF174 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B3C134781D1EA85B009BF174;
+					};
+				};
+			};
+			buildConfigurationList = B3C134741D1EA85B009BF174 /* Build configuration list for PBXProject "Beatiful Tap Me" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3C134701D1EA85B009BF174;
+			productRefGroup = B3C1347A1D1EA85B009BF174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C134781D1EA85B009BF174 /* Beatiful Tap Me */,
+				B3C134911D1EA85B009BF174 /* Beatiful Tap MeTests */,
+				B3C1349C1D1EA85B009BF174 /* Beatiful Tap MeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C134771D1EA85B009BF174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C134C01D1EA87A009BF174 /* bg_tile.png in Resources */,
+				B3C1348C1D1EA85B009BF174 /* LaunchScreen.storyboard in Resources */,
+				B3C134CE1D1EA87A009BF174 /* field_time@2x.png in Resources */,
+				B3C134C41D1EA87A009BF174 /* button_tap_selected.png in Resources */,
+				B3C134891D1EA85B009BF174 /* Assets.xcassets in Resources */,
+				B3C134C51D1EA87A009BF174 /* button_tap_selected@2x.png in Resources */,
+				B3C134D01D1EA87A009BF174 /* SecondBeep.wav in Resources */,
+				B3C134C21D1EA87A009BF174 /* button_tap_deselected.png in Resources */,
+				B3C134CA1D1EA87A009BF174 /* checker_top@2x.png in Resources */,
+				B3C134871D1EA85B009BF174 /* Main.storyboard in Resources */,
+				B3C134C71D1EA87A009BF174 /* checker_bottom.png in Resources */,
+				B3C134C91D1EA87A009BF174 /* checker_top.png in Resources */,
+				B3C134C31D1EA87A009BF174 /* button_tap_deselected@2x.png in Resources */,
+				B3C134CB1D1EA87A009BF174 /* field_score.png in Resources */,
+				B3C134CD1D1EA87A009BF174 /* field_time.png in Resources */,
+				B3C134C61D1EA87A009BF174 /* ButtonTap.wav in Resources */,
+				B3C134C11D1EA87A009BF174 /* bg_tile@2x.png in Resources */,
+				B3C134CC1D1EA87A009BF174 /* field_score@2x.png in Resources */,
+				B3C134C81D1EA87A009BF174 /* checker_bottom@2x.png in Resources */,
+				B3C134CF1D1EA87A009BF174 /* HallOfTheMountainKing.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C134901D1EA85B009BF174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C1349B1D1EA85B009BF174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C134751D1EA85B009BF174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C134841D1EA85B009BF174 /* ViewController.m in Sources */,
+				B3C134811D1EA85B009BF174 /* AppDelegate.m in Sources */,
+				B3C1347E1D1EA85B009BF174 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C1348E1D1EA85B009BF174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C134971D1EA85B009BF174 /* Beatiful_Tap_MeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C134991D1EA85B009BF174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C134A21D1EA85B009BF174 /* Beatiful_Tap_MeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3C134941D1EA85B009BF174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C134781D1EA85B009BF174 /* Beatiful Tap Me */;
+			targetProxy = B3C134931D1EA85B009BF174 /* PBXContainerItemProxy */;
+		};
+		B3C1349F1D1EA85B009BF174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C134781D1EA85B009BF174 /* Beatiful Tap Me */;
+			targetProxy = B3C1349E1D1EA85B009BF174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3C134851D1EA85B009BF174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C134861D1EA85B009BF174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3C1348A1D1EA85B009BF174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C1348B1D1EA85B009BF174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C134A41D1EA85B009BF174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3C134A51D1EA85B009BF174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C134A71D1EA85B009BF174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Beatiful Tap Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.accolite.Beatiful-Tap-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3C134A81D1EA85B009BF174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Beatiful Tap Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.accolite.Beatiful-Tap-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3C134AA1D1EA85B009BF174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Beatiful Tap MeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.accolite.Beatiful-Tap-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beatiful Tap Me.app/Beatiful Tap Me";
+			};
+			name = Debug;
+		};
+		B3C134AB1D1EA85B009BF174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Beatiful Tap MeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.accolite.Beatiful-Tap-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beatiful Tap Me.app/Beatiful Tap Me";
+			};
+			name = Release;
+		};
+		B3C134AD1D1EA85B009BF174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Beatiful Tap MeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.accolite.Beatiful-Tap-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Beatiful Tap Me";
+			};
+			name = Debug;
+		};
+		B3C134AE1D1EA85B009BF174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Beatiful Tap MeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.accolite.Beatiful-Tap-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Beatiful Tap Me";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C134741D1EA85B009BF174 /* Build configuration list for PBXProject "Beatiful Tap Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C134A41D1EA85B009BF174 /* Debug */,
+				B3C134A51D1EA85B009BF174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C134A61D1EA85B009BF174 /* Build configuration list for PBXNativeTarget "Beatiful Tap Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C134A71D1EA85B009BF174 /* Debug */,
+				B3C134A81D1EA85B009BF174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3C134A91D1EA85B009BF174 /* Build configuration list for PBXNativeTarget "Beatiful Tap MeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C134AA1D1EA85B009BF174 /* Debug */,
+				B3C134AB1D1EA85B009BF174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3C134AC1D1EA85B009BF174 /* Build configuration list for PBXNativeTarget "Beatiful Tap MeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C134AD1D1EA85B009BF174 /* Debug */,
+				B3C134AE1D1EA85B009BF174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C134711D1EA85B009BF174 /* Project object */;
+}
